@@ -1,4 +1,4 @@
 Mocks
 =====
 
-Common mocks of API's for unit testing.
+JavaScript mocks of common API's for unit testing.
