@@ -26,7 +26,7 @@
       set: function(data, fn) {
         var key = Object.keys(data)[0];
         var val = data[key];
-        this.cache[key] = val;
+        this.cache[key] = JSON.parse(JSON.stringify(val));
         if (fn) {
           fn(data);
         }
